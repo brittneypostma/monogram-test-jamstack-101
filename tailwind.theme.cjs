@@ -18,6 +18,13 @@ module.exports = {
         "peach": "#fdc087",
         "orange": "#fa947b",
         "pink": "#c978a2"
+      },
+      lineHeight: {
+        "loose": "152px",
+        "extra-loose": "195.5%"
+      },
+      letterSpacing: {
+        "tight": "-0.039em"
       }
     }
   }
