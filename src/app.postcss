@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700;900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Global Styles */
+html {
+	font-family: 'Inter', sans-serif;
+}
+
+/* full height and width and hide x axis overflow */
+html,
+body,
+#svelte {
+	@apply w-full h-full overflow-x-hidden;
+}
+
+/* links */
+a {
+	@apply inline-block;
+}
+
+/* headings */
+h1,
+h2,
+h3,
+h4 {
+	@apply font-extrabold tracking-[-0.039em];
+}
+
+h1,
+h2 {
+	@apply text-4xl md:text-7xl xl:text-[133px] xl:leading-[152px];
+}
+
+h3 {
+	@apply text-2xl xl:text-[76px];
+}
+
+/* Utility Classes */
+.score-gradient {
+	background: linear-gradient(
+		25.39deg,
+		rgba(255, 255, 255, 0.024) 18.54%,
+		rgba(123, 245, 93, 0.108) 62.25%
+	);
+}
