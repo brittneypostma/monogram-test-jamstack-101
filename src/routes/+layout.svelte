@@ -4,7 +4,7 @@
 </script>
 
 <div class="grid grid-rows-[1fr_auto]">
-	<main class="grid xl:grid-cols-bleed-wrapper">
+	<main class="grid-cols-bleed-wrapper">
 		<slot />
 	</main>
 

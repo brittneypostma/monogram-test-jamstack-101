@@ -32,7 +32,7 @@
 <img src={squigglyDark} alt="" class="full-bleed col-span-full" />
 <div class="main">
 	<!-- each section aligns with grid and takes account for the margin between and height for absolute images -->
-	<section class="-mt-[900px] relative z-10 mx-auto">
+	<section class="-mt-[1500px] md:-mt-[1200px] xl:-mt-[1000px] relative z-10 mx-auto">
 		<Api />
 	</section>
 	<section>
@@ -45,7 +45,7 @@
 
 <style lang="postcss">
 	section {
-		@apply col-span-6 place-items-start min-h-full relative;
+		@apply xl:col-span-6 place-items-start min-h-full relative;
 	}
 
 	.main {

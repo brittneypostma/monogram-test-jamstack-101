@@ -5,7 +5,7 @@
 
 <!-- align heading with grid and give correct spacing -->
 <section class="pl-[10px] pr-4 xl:pr-0 grid gap-11">
-	<h1 class="flex gap-[27px]">
+	<h1 class="flex flex-wrap gap-[27px]">
 		<span>jamstack</span>
 		<!-- gradient text -->
 		<span class="bg-gradient-to-r from-peach via-orange to-pink bg-clip-text text-transparent"
