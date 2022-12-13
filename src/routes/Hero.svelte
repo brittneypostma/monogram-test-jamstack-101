@@ -3,23 +3,23 @@
 	import heroImage from '$lib/images/hero.png';
 </script>
 
-<section class="pl-4 md:pl-8 xl:pl-[126px] grid gap-[10%]">
-	<h1>
-		jamstack
+<!-- align heading with grid and give correct spacing -->
+<section class="pl-[10px] pr-4 xl:pr-0 grid gap-11">
+	<h1 class="flex gap-[27px]">
+		<span>jamstack</span>
 		<!-- gradient text -->
 		<span class="bg-gradient-to-r from-peach via-orange to-pink bg-clip-text text-transparent"
 			>101</span
 		>
 	</h1>
-	<!-- account for margin -->
-	<p
-		class="ml-4 lg:ml-8 xl:ml-[62px] tracking-wider leading-extra-loose max-w-[549px] font-light text-[18px] text-surface-500"
-	>
+	<!-- account for left margin, max width, and font styles -->
+	<p class="ml-4 lg:ml-8 xl:ml-[52px] max-w-[549px]  text-surface-500">
 		Lorem ipsum dolor sit amet, consectetur adipiscing elit. Arcu augue massa, tincidunt proin nunc
 		viverra tristique tempor, ipsum. At lectus vel pretium tempor ut dui vivamus sit.
 	</p>
 </section>
-<a href="#javascript" aria-label="jump to JavaScript section"
-	><img src={mouseLine} alt="" class="absolute mt-[87.4px] left-1/4" /></a
->
-<img src={heroImage} alt="" class="absolute top-[153px] md:top-0 -right-4 -z-10" />
+<!-- <a href="#javascript" aria-label="jump to JavaScript section"> -->
+<!-- place at bottom, but offset margin on section -->
+<img src={mouseLine} alt="" class="absolute bottom-[153px] left-1/4 xl:left-[256px]" />
+<!-- </a> -->
+<img src={heroImage} alt="" class="absolute top-[153px] md:top-0 -right-[116px] -z-10" />

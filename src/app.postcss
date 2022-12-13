@@ -16,9 +16,12 @@ html {
 
 /* full height and width and hide x axis overflow */
 html,
-body,
-#svelte {
+body {
 	@apply w-full h-full overflow-x-hidden;
+}
+
+body {
+	@apply text-sm md:text-[18px];
 }
 
 /* links */
@@ -36,14 +39,25 @@ h4 {
 
 h1,
 h2 {
-	@apply text-4xl md:text-7xl xl:text-[133px] xl:leading-loose;
+	@apply text-5xl sm:text-6xl lg:text-8xl xl:text-[133px] xl:leading-loose inline-block;
 }
 
 h3 {
 	@apply text-2xl xl:text-[76px];
 }
 
+p {
+	@apply tracking-loose leading-extra-loose font-light;
+}
+
 /* Utility Classes */
+.grid-cols-bleed-wrapper > * {
+	@apply col-start-2 col-end-3;
+}
+.full-bleed {
+	@apply w-full col-start-1;
+}
+
 .score-gradient {
 	background: linear-gradient(
 		25.39deg,

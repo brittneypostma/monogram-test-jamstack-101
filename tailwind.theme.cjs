@@ -19,12 +19,18 @@ module.exports = {
         "orange": "#fa947b",
         "pink": "#c978a2"
       },
+      gridTemplateColumns: {
+        minmax: 'repeat(4, minmax(320px, 1fr))',
+        "bleed-wrapper": '1fr repeat(4, minmax(320px, 1fr)) 1fr'
+      },
       lineHeight: {
         "loose": "152px",
-        "extra-loose": "195.5%"
+        "extra-loose": "35px",
+        "loosest": "39px"
       },
       letterSpacing: {
-        "tight": "-0.039em"
+        "tight": "-0.039em",
+        "loose": "0.005em"
       }
     }
   }

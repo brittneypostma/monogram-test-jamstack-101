@@ -3,8 +3,10 @@
 	import Footer from './Footer.svelte';
 </script>
 
-<main>
-	<slot />
-</main>
+<div class="grid grid-rows-[1fr_auto]">
+	<main class="grid xl:grid-cols-bleed-wrapper">
+		<slot />
+	</main>
 
-<Footer />
+	<Footer />
+</div>
