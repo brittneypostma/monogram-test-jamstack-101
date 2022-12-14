@@ -28,5 +28,4 @@
 	</div>
 </div>
 
-<!-- white squiggly arrow -->
-<!-- bg javascript -->
+<!-- scores off center -->

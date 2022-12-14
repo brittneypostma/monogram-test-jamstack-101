@@ -3,7 +3,7 @@
 </script>
 
 <section
-	class="px-4 xl:px-0 pt-[120.5px] pb-[217px] max-w-[1204px] grid gap-11 justify-items-center score-gradient"
+	class="px-4 xl:px-0 pt-[120.5px] pb-[217px] max-w-[1204px] grid gap-11 justify-items-center score-gradient relative mx-auto"
 >
 	<h3 class="text-mint">top audit scores</h3>
 	<img src={scores} alt="four glowing green audit scores, they are all 100" />
