@@ -1,15 +1,9 @@
 <script>
-	import orangeSquare from '$lib/images/orange-square.png';
 	import retroComputer from '$lib/images/retro-computer.png';
 	import squigglyArrow from '$lib/images/squiggly-arrow.png';
 </script>
 
-<img
-	src={orangeSquare}
-	alt=""
-	class="absolute top-0 left-1/2 transform -translate-x-1/2 -z-10 mx-auto w-[1397px] h-[893px]"
-/>
-<img src={squigglyArrow} alt="" class="absolute xl:top-[267.5px] xl:right-[370px]" />
+<img src={squigglyArrow} alt="" class="hidden xl:block absolute xl:top-[267.5px] xl:right-12" />
 <section class="text-white text-center mt-[93px] grid xl:grid-cols-minmax">
 	<div class="xl:col-start-2 xl:col-end-4 grid gap-11 justify-center">
 		<h2>javascript</h2>

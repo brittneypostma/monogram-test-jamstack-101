@@ -2,7 +2,8 @@
 	import sphere from '$lib/images/sphere.png';
 </script>
 
-<section class="text-white text-center mx-auto grid gap-11 justify-items-center p-4 xl:p-0">
+<!-- set up grid and styles, offset bottom margin to correct spacing -->
+<section class="text-white text-center mx-auto grid gap-11 justify-items-center p-4 xl:p-0 -mb-32">
 	<h2>api</h2>
 	<p
 		class="xl:ml-11 font-normal tracking-normal
