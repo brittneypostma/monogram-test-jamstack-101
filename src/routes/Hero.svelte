@@ -18,8 +18,6 @@
 		viverra tristique tempor, ipsum. At lectus vel pretium tempor ut dui vivamus sit.
 	</p>
 </section>
-<!-- <a href="#javascript" aria-label="jump to JavaScript section"> -->
 <!-- place at bottom, but offset margin on section -->
-<img src={mouseLine} alt="" class="absolute bottom-[153px] left-1/4 xl:left-[256px]" />
-<!-- </a> -->
+<img src={mouseLine} alt="" class="absolute bottom-[190px] left-1/4 xl:left-[256px]" />
 <img src={heroImage} alt="" class="absolute top-[153px] md:top-0 -right-[116px] -z-10" />

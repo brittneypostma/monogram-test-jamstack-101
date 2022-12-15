@@ -12,7 +12,7 @@
 	<!-- group for main grid -->
 	<div class="main">
 		<!-- each section aligns with grid and takes account for the margin between and height for absolute images -->
-		<section class="pl-[10%] xl:pl-0 mt-[153px] h-[970px]">
+		<section class="pl-[10%] xl:pl-0 mt-[153px] mb-10 h-[970px]">
 			<Hero />
 		</section>
 		<section class="mt-[42px] h-[1260px]">
